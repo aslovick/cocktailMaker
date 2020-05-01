@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    display: block;
+    margin: 8px;
+    background-color: black;
+    color: white;
+    font-family: 'Times New', serif;
+    background-image: url(https://images.unsplash.com/photo-1582837611539-e3020079eab6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=994&q=80);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.recipeForm {
+    font-family: 'Times New', serif;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    width: 50%;
+    /* padding: 30px; */
+    padding: 20px;
+    height: auto;
+    margin: 225px auto;
+    align-items: center;
+    border: double;
+    text-align: center;
+}
+
+h1 {
+ font-size: 60px;
+}
+
+h2 {
+ font-size: 35px;
+}
+
+.name, .cocktail, .recipe-btn {
+  color: black;
+  font-family: 'Times New', serif;
+  font-size: 125%;
+  width: 200px;
+}
+
+.nameMessage {
+  font-family: 'Times New', serif;
+  font-size: 20px;
+}
+
+.newCocktail {
+  font-family: 'Times New', serif;
+  font-size: 17px;
+}
